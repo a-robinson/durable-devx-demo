@@ -1,0 +1,7 @@
+name = "durable-devx-demo"
+compatibility_date = "2022-02-16"
+
+[durable_objects]
+bindings = [
+  {name = "EXAMPLE", class_name = "ExampleDurable"}
+]
