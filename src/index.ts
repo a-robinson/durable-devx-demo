@@ -9,8 +9,8 @@
  */
 
 export class ExampleDurable {
-  async fetch(url: string): Promise<string> {
-    return "hello world";
+  async fetch(url: string): Promise<Response> {
+    return new Response("hello world");
   }
 }
 
